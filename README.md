@@ -35,8 +35,3 @@ Walk through plan:
 
 ## Extra Notes
 - It's not clear that the improvements over RoBERTa baseline are robust across random seeds and whether they are specific to the chosen hyperparameters. Hyperparameters include graph hidden state dimensionality, number of attention heads, how far forward/backward to connect each utterance to other utterances, number of layers in the GNN, whether to use residual connections, whether to map the edge representation, etc. Choices on these hyperparameters should be informed using the validation set.
-
-## To-Do:
-- Upload to github
-- Run with larger batch size
-- Run another seed.
