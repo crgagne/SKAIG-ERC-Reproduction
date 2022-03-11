@@ -1,16 +1,2 @@
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', cn_nhead=4, cn_ff_dim=200, cn_dropout=0.1, edge_dim=200, cn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', cn_nhead=4, cn_ff_dim=200, cn_dropout=0.1, edge_dim=200, cn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
-
-Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='new', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
+Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, comet_type='old', gnn_nhead=4, gnn_ff_dim=200, gnn_dropout=0.1, edge_dim=200, gnn_num_layer=2, index=3)
 

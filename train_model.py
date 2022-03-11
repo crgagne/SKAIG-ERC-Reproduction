@@ -292,7 +292,7 @@ if __name__ == '__main__':
     '''Calls:
         python train_model.py -use_gpu True
         python train_model.py -use_gpu True -index 2 -comet_type new
-        python train_model.py -use_gpu True -index 3 -comet_type new
+        python train_model.py -use_gpu True -index 3 -comet_type old
 
     '''
     main()

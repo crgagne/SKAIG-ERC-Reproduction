@@ -137,7 +137,6 @@ class CombinedModel(nn.Module):
         batch = []
         cumbatch = []
         count = 0
-        import ipdb; ipdb.set_trace()
         for i, l in enumerate(conv_len):
             num_edge = int(edge_indices[i].size(1))
             batch += [i] * num_edge
