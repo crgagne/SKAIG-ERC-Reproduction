@@ -1,0 +1,84 @@
+Namespace(dataset_name='MELD', hip=1, batch_size=4, lr=8e-06, n_epochs=50, warmup_step=1000, training_step=10000, use_gpu=True, schedule='linear', seed=7, pretrain='roberta-large', sent_dim=200, cn_nhead=4, cn_ff_dim=200, cn_dropout=0.1, edge_dim=200, cn_num_layer=2, index=1)
+
+Train: Epoch 1 Loss 1.7427, ACC 35.15867, F1 28.97276, mF 12.16715
+Validation: ACC 43.10189, F1 31.56919, mF 14.66723
+Test: ACC 49.08046, F1 37.44749, mF 15.69185
+Train: Epoch 2 Loss 1.3849, ACC 52.01722, F1 42.59562, mF 20.16352
+Validation: ACC 59.24256, F1 53.65877, mF 32.71719
+Test: ACC 62.60536, F1 58.07363, mF 33.325
+Train: Epoch 3 Loss 1.1209, ACC 63.43978, F1 59.92976, mF 36.94853
+Validation: ACC 61.9477, F1 59.22584, mF 40.5196
+Test: ACC 65.1341, F1 63.17075, mF 40.9534
+Train: Epoch 4 Loss 1.0139, ACC 66.48313, F1 63.93499, mF 42.68265
+Validation: ACC 63.57078, F1 61.19496, mF 44.41839
+Test: ACC 63.98467, F1 62.5321, mF 41.75946
+Train: Epoch 5 Loss 0.9116, ACC 70.09711, F1 68.31335, mF 50.21674
+Validation: ACC 63.8413, F1 62.46089, mF 49.57168
+Test: ACC 65.86207, F1 64.85379, mF 48.57421
+Train: Epoch 6 Loss 0.7819, ACC 74.40184, F1 73.44394, mF 59.37866
+Validation: ACC 63.48061, F1 62.65588, mF 49.99644
+Test: ACC 65.32567, F1 64.91138, mF 48.74183
+Train: Epoch 7 Loss 0.6643, ACC 78.46631, F1 77.8277, mF 66.32295
+Validation: ACC 65.01353, F1 63.8834, mF 50.10111
+Test: ACC 65.01916, F1 64.29564, mF 48.70599
+Train: Epoch 8 Loss 0.554, ACC 82.02022, F1 81.62297, mF 72.20577
+Validation: ACC 64.11181, F1 62.51842, mF 49.36186
+Test: ACC 63.83142, F1 62.34536, mF 45.61259
+Train: Epoch 9 Loss 0.473, ACC 85.03354, F1 84.82265, mF 77.14634
+Validation: ACC 63.8413, F1 63.26494, mF 51.68686
+Test: ACC 63.06513, F1 62.73031, mF 46.52677
+Train: Epoch 10 Loss 0.4038, ACC 87.42617, F1 87.2731, mF 80.79812
+Validation: ACC 60.41479, F1 60.53789, mF 48.67719
+Test: ACC 61.68582, F1 62.17046, mF 46.21341
+Train: Epoch 11 Loss 0.3426, ACC 89.35829, F1 89.24493, mF 84.43974
+Validation: ACC 63.66096, F1 63.39724, mF 51.27203
+Test: ACC 61.95402, F1 62.31011, mF 46.71364
+Train: Epoch 12 Loss 0.2902, ACC 91.0001, F1 90.95638, mF 87.43008
+Validation: ACC 61.85753, F1 61.78912, mF 49.0987
+Test: ACC 61.341, F1 61.53181, mF 45.64539
+Train: Epoch 13 Loss 0.2475, ACC 92.17139, F1 92.13016, mF 89.04677
+Validation: ACC 62.03787, F1 61.66007, mF 50.25046
+Test: ACC 61.18774, F1 61.32265, mF 45.82417
+Train: Epoch 14 Loss 0.2158, ACC 93.26259, F1 93.24038, mF 90.67699
+Validation: ACC 63.30027, F1 62.65017, mF 49.824
+Test: ACC 62.26054, F1 61.81016, mF 44.8527
+Train: Epoch 15 Loss 0.19, ACC 93.92332, F1 93.90518, mF 91.50215
+Validation: ACC 63.75113, F1 62.54138, mF 51.34627
+Test: ACC 63.29502, F1 62.43692, mF 45.28798
+Train: Epoch 16 Loss 0.1708, ACC 94.76424, F1 94.75084, mF 93.16614
+Validation: ACC 62.12804, F1 61.38525, mF 48.8082
+Test: ACC 62.37548, F1 61.84102, mF 46.09732
+Train: Epoch 17 Loss 0.147, ACC 95.25478, F1 95.24965, mF 93.51432
+Validation: ACC 61.3165, F1 60.9447, mF 48.76782
+Test: ACC 61.26437, F1 61.18865, mF 46.00978
+----------------------------------------------
+
+[DEV] best ACC 65.01353, F1 63.8834, mF 50.10111
+              precision    recall  f1-score   support
+
+           0     0.7540    0.8021    0.7773       470
+           1     0.5922    0.7067    0.6444       150
+           2     0.3333    0.1250    0.1818        40
+           3     0.6552    0.3423    0.4497       111
+           4     0.6084    0.6196    0.6140       163
+           5     0.3333    0.2727    0.3000        22
+           6     0.5087    0.5752    0.5399       153
+
+    accuracy                         0.6501      1109
+   macro avg     0.5407    0.4920    0.5010      1109
+weighted avg     0.6435    0.6501    0.6388      1109
+[TEST] best ACC 65.01916, F1 64.29564, mF 48.70599
+              precision    recall  f1-score   support
+
+           0     0.7795    0.7938    0.7866      1256
+           1     0.5000    0.6085    0.5490       281
+           2     0.2903    0.1800    0.2222        50
+           3     0.5684    0.2596    0.3564       208
+           4     0.5831    0.6194    0.6007       402
+           5     0.4286    0.3088    0.3590        68
+           6     0.5065    0.5681    0.5355       345
+
+    accuracy                         0.6502      2610
+   macro avg     0.5223    0.4769    0.4871      2610
+weighted avg     0.6477    0.6502    0.6430      2610
+----------------------------------------------
